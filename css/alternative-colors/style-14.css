@@ -1,0 +1,105 @@
+/*
+Notes:
+    Color: #ec005f;
+*/
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+a,
+.rate1:before,
+.rate2:before,
+.rate3:before,
+.rate4:before,
+.rate5:before,
+.panel-title a,
+.pagination > li > a,
+.post-meta span:after,
+.pagination > li > span,
+.tabs nav ul li a:hover,
+.post .post-header a:hover,
+.pricing-table .table-price,
+.member-box .member-title h5,
+.dropdown-menu > .active > a,
+.panel-title a.collapsed:hover,
+.featured-table .table-title h6,
+body.dark-version .panel-title a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+body.dark-version .panel-title a:focus,
+body.dark-version .tabs nav ul li a:hover,
+body.dark-version .post .post-title a:hover,
+body.dark-version .post .post-header a:hover,
+body.dark-version .panel-title a.collapsed:hover {
+    color: #ec005f;
+}
+/* ----------------------------------------------------------------------- */
+.nav > li > a:hover,
+.nav .open > a:hover,
+.navbar-nav > .active > a,
+.nav > li.dropdown:hover > a,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+body.one-page #header-menu li.active a:hover,
+body.dark-version.one-page #header-menu li.active a:hover {
+    color: #ec005f !important;
+}
+
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+::-webkit-scrollbar-thumb,
+#to-top a,
+.btn-nesto,
+.feature-icon,
+.btn.btn-nesto,
+#filter-container,
+.portfolio-item a,
+.loader-spinner > div,
+.panel-title a:before,
+.process-box .process-icon,
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus,
+.panel-title a.collapsed:before,
+.number-box .number-digit:after,
+.nesto-form .buttons-container a:hover,
+.owl-theme .owl-controls .owl-page span,
+.home-recent-posts .post-container:hover,
+.home-recent-posts .post-container:hover:after,
+body.dark-version .nesto-form .buttons-container a:hover {
+    background-color: #ec005f;
+}
+/* ----------------------------------------------------------------------- */
+.widget-behance .owl-next,
+.widget-behance .owl-prev,
+.widget-dribbble .owl-prev,
+.widget-dribbble .owl-next {
+    background-color: #ec005f !important;
+}
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+#footer,
+#contact-name.form-error,
+#contact-email.form-error,
+#contact-subject.form-error,
+#contact-message.form-error,
+.nesto-form .form-control:hover,
+.nesto-form .form-control:focus,
+#contactform .form-control:hover,
+#contactform .form-control:focus,
+.widget-search .form-control:hover,
+.widget-search .form-control:focus {
+    -webkit-border-color: #ec005f;
+       -moz-border-color: #ec005f;
+         -o-border-color: #ec005f;
+            border-color: #ec005f;
+}
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+    body.one-page #header-menu li.active a:hover { color: #ec005f !important; }
+}
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+.btn-nesto:hover { background-color: #242434; }
