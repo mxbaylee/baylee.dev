@@ -68,35 +68,6 @@ jQuery(document).ready(function () {
 
 
     /* ==========================================================================
-    MailChimp
-    ========================================================================== */
-    function mailchimpCallback(response) {
-
-        jQuery('#ResponseModal').modal('show');
-
-        if (response.result === 'success') {
-
-            jQuery('form#newsletter-form input').val('');
-            jQuery('#ResponseModal-title').html('Newsletter');
-            jQuery('#ResponseModalLabel').html('<i class="glyphicon glyphicon-ok-circle nesto_success"></i>');
-            jQuery('.nesto-response').html('Please check your e-mail to complete the subscription');
-
-        } else if (response.result === 'error') {
-
-            jQuery('#ResponseModal-title').html('Newsletter');
-            jQuery('#ResponseModalLabel').html('<i class="glyphicon glyphicon-remove-circle nesto_error"></i>');
-            jQuery('.nesto-response').html('Please enter unsubscribed & valid e-mail address');
-
-        }
-
-    }
-    jQuery('#newsletter-form').ajaxChimp({
-        callback: mailchimpCallback,
-        url: 'http://nestolab.us8.list-manage1.com/subscribe/post?u=1bb0930eeb3f8c90f187eb8ac&id=52e0f44deb'
-    });
-
-
-    /* ==========================================================================
     Portfolio Menu
     ========================================================================== */
     filter_container.on({
