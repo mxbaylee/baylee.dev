@@ -154,9 +154,10 @@ jQuery(document).ready(function () {
 
         var myLatlng, mapOptions, mapElement, map, markerimage, marker, styleSs;
 
-        myLatlng = new google.maps.LatLng(29.983775, 31.167161);
+        myLatlng = new google.maps.LatLng(36.151884, -95.988869);
+
         mapOptions = {
-            zoom: 16,
+            zoom: 14,
             panControl: false,
             scrollwheel: false,
             mapTypeControl: false,
@@ -275,19 +276,6 @@ jQuery(document).ready(function () {
             id: '42260925@N04'
         },
         itemTemplate: '<li>' + '<a href="{{image_b}}" class="fancybox" data-fancybox-group="gall1" title="{{title}}"><img src="{{image_s}}" alt="{{title}}" /></a>' + '</li>'
-    });
-
-
-    /* ==========================================================================
-    Twitter Feed
-    ========================================================================== */
-    jQuery('.tweetfeed .tweet').twittie({
-        count: 2,
-        username: 'twitter',
-        loadingText: 'Loading ...',
-        dateFormat: '%b %d, %Y',
-        apiPath: 'php/twitter/api/tweet.php',
-        template: '<p>{{tweet}}</p> <div class="date"><a href="{{url}}" target="_blank">{{date}}</a></div>'
     });
 
 
@@ -414,7 +402,7 @@ jQuery(document).ready(function () {
     /* ==========================================================================
     on mobile ?
     ========================================================================== */
-	onMobile = false;
+    onMobile = false;
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) { onMobile = true; }
 
     if (onMobile === true) {
@@ -452,31 +440,6 @@ jQuery(document).ready(function () {
             offset: 70,
             speed: 800,
             updateURL: false
-        });
-
-        /* ==========================================================================
-        Numbers
-        ========================================================================== */
-        jQuery('.number-box [data-to]').each(function () {
-            var $this = jQuery(this);
-            $this.waypoint(function () {
-                $this.countTo({speed: 3000});
-            }, {offset: '75%', triggerOnce: true });
-        });
-
-        /* ==========================================================================
-        Parallax Version
-        ========================================================================== */
-        jQuery('body.parallax-version .home-section').parallax('50%', 0.5);
-
-        /* ==========================================================================
-        Video Version
-        ========================================================================== */
-        jQuery('body.video-version .home-section').YTPlayer({
-            mute: false,
-            pauseOnScroll: false,
-            fitToBackground: false,
-            videoId: 'odyPwv8Nyrc'
         });
 
     }
@@ -627,5 +590,23 @@ jQuery(window).load(function () {
     =============================================== */
     jQuery('body.image-slider-version #supersized li a img').css({top: '0'});
 
+    /* ==============================================
+    Random Quote
+    =============================================== */
+    var lastIndex = 0;
+    var pickIndex = function() {
+        var index = Math.round(Math.random() * 100) % jQuery('.hero-quote h1').length;
+        if (index === lastIndex) {
+            return pickIndex();
+        }
+        return (lastIndex = index);
+    };
+    var displayRandomQuote = function() {
+        jQuery('.hero-quote h1:visible').fadeOut(600, function() {
+            jQuery('.hero-quote h1:eq(' + pickIndex() + ')').fadeIn(600);
+        });
+    };
+    setInterval(displayRandomQuote, 8000);
+    displayRandomQuote();
 
 });
