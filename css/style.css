@@ -5611,6 +5611,7 @@ body.dark-version .widget {
     .col-xs-6 { width: 100%; }
 
     #top-header .social-icons {
+      min-height: 45px;
       max-height: 50px;
     }
     #top-header .social-icons ul li { float: none; }
