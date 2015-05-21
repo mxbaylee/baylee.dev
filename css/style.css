@@ -5610,12 +5610,10 @@ body.dark-version .widget {
 
     .col-xs-6 { width: 100%; }
 
-    #top-header .social-icons ul li { float: none; }
-    #top-header .social-icons ul li:last-child {
-        margin-bottom: 10px;
-        position: relative;
-        top: 10px;
+    #top-header .social-icons {
+      max-height: 50px;
     }
+    #top-header .social-icons ul li { float: none; }
 
     .hero-title h1,
     .hero-quote h1,
