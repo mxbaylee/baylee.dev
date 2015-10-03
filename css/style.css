@@ -347,6 +347,7 @@ Notes:
     36.2 Content and Button
 37. Boxed Version
 38. Dark Version
+39. Custom Edits
 
 */
 
@@ -5776,3 +5777,20 @@ body.dark-version .nesto-form .buttons-container a:hover {
 /* ----------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------- */
 .btn-nesto:hover { background-color: #242434; }
+
+/* ==========================================================================
+   39. Custom Edits
+========================================================================== */
+
+.edit-button {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.edit-button > a {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
