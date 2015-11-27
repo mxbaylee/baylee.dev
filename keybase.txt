@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/blainesch
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://blainesch.com
+  * I am blainesch (https://keybase.io/blainesch) on keybase.
+  * I have a public key with fingerprint 7012 3250 A4B2 D882 ABD3  5806 763C CD80 524B 1779
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101d92e3d8d93531139693daabe519ba7e585896039610869c6a0e5f4325c5ce6670a",
+            "fingerprint": "70123250a4b2d882abd35806763ccd80524b1779",
+            "host": "keybase.io",
+            "key_id": "763ccd80524b1779",
+            "kid": "0101d92e3d8d93531139693daabe519ba7e585896039610869c6a0e5f4325c5ce6670a",
+            "uid": "652677f367a8d1dc528097bb6b975000",
+            "username": "blainesch"
+        },
+        "service": {
+            "hostname": "blainesch.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1448643203,
+    "expire_in": 157680000,
+    "prev": "32360ec989c0da0d663007327176e8e39b813e30c30fbe836edbcc06c61b64bd",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMNAAnicrZJ/UBRlGMcPPZnYQUVkQoUh20wMDnx39/bd3ZNihkvJYEDHaGhCr/3x
+cmxwe3d7dwQSDkQD5yHOwJCpqQgzMRYgShqBmSmFifzSycoKJU+HomnCkn4MIu0y
+9U/Tn/31zvu8n+/3/T7PPJ8sXmjAQn6oDZbUvpDXE3L5/H6f4fncQFUZLjilUtxS
+hhei+QMVScjjtRXKEm7BAQEIiSMRJbESR9EUQVAc5CiJ5wVEE5zAM4hmaZaDQKsT
+gIWcCHmA6HwzRdIiLSIIGcDjJjxfVuxIdamy4tVsGUCQGgB4s0BKLEvygkTRLIAM
+pERRYgFNmgWCYThNWOD06AotnMB7ULLs1GraxTYf7z/4/zm3b94O0iRkmHwKMjwr
+EZJIkyzgGEGAAsfQAAAd9CBV4R1Io4UiXlaQRyzAy024Vi6WRaRPVm/l30iy6HRo
+apfq9DpFZ5H2VOD1uiy60lvq0tFXkGD728QmyIqkDVITFCPVIzsV3EJopOiVdVfC
+bGah1gCgTDgqcckqssk6QTOQ1UIC/RtUrFlSJAUBEjmWE4HEAwlCCgCGIhmCgYhF
+FCewBIUoIFIgX0AsBZEkiCKAIiQEaBYkXG/LrThxC6PF5O2apUe2K7zXpyK8/ML5
+PKMhBDOELlqgL5gBC4v4Z+3CDi+dyxjKSC8PLqs5E+14fKyyLm0g0FIYHn1karE6
+aEBJ3+YZbzW7+gf/ODleMzI1PVA0aQveqA9rTgm/tGv/0YjxSBq7OhJgTO3sZ9sS
+N1iMa12+yrPF2JKuY9uvb88Ojd265V71uo/2JB44MftcptqfXjM3typl1Lq7Y1f5
+erwjL7Xjp2jKcaLtUEtPxGtd7W+7n3ykUnxnxDlEXGl2dG7rrI7ZF3LxzmxVRIxt
+x6pNsXUHU2/2HLtTFep7/6y1MW4656VovxuUZP1KfjyyLq3pbv/YN9Wbb+21fmm5
+q26Kr02JnR0c/6L9md6C271G+9WN7UkNp5ouKrjt58tFXf7SrPtn4qxZp7qXYzl+
+e/qN7D/bh43vxfRh6w82ea29vv4G7HOl4bdXc7r93d8rpociEpm0yBXmD1/c93Wv
++KP7jbbVhOHImP0r+dN+UJB+OnemdUmiOPVWo5mvedDa9tTw6cFz08s2HA7U3Wss
+n7jZnDi55mlsZXD31EzqJa7FMflBVJA3hj9b43v05LlrSyuwN0cei0yO72t6t8O9
+IiwqLefhvUNZA3tay9ZWDvkm6obrhTKqYjRqYdSD1TsCFZmv915LnzZ1lmzxdIYd
+unB/UX7jxPKdLQk7n+jM+G4mU8xtu/I7TAhUuOOSXq7wY8qC4/H1hX1BcuvKUeOa
+o+RAdo7p+hBK+OX2cfUvLx26vQ==
+=Ugs8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/blainesch
+
+==================================================================
