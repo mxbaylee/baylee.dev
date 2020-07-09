@@ -777,30 +777,6 @@ a>code {
   padding-bottom: .5rem
 }
 
-.navbar-toggler {
-  padding: .25rem .75rem;
-  font-size: 1.0625rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: .25rem
-}
-
-.navbar-toggler:focus,
-.navbar-toggler:hover {
-  text-decoration: none
-}
-
-.navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%
-}
-
 @media (max-width:767.98px) {
   .navbar-expand-md>.container {
     padding-right: 0;
@@ -822,9 +798,6 @@ a>code {
   }
   .navbar-expand-md>.container {
     flex-wrap: nowrap
-  }
-  .navbar-expand-md .navbar-toggler {
-    display: none
   }
 }
 
@@ -849,9 +822,6 @@ a>code {
   }
   .navbar-expand-lg>.container {
     flex-wrap: nowrap
-  }
-  .navbar-expand-lg .navbar-toggler {
-    display: none
   }
 }
 
@@ -878,10 +848,6 @@ a>code {
   flex-wrap: nowrap
 }
 
-.navbar-expand .navbar-toggler {
-  display: none
-}
-
 .navbar-dark .navbar-brand {
   color: #fff
 }
@@ -900,14 +866,6 @@ a>code {
   color: rgba(255, 255, 255, .75)
 }
 
-.navbar-dark .navbar-toggler {
-  color: rgba(117, 117, 117, .8);
-  border-color: rgba(255, 255, 255, .1)
-}
-
-.navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(117, 117, 117, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
-}
 
 .navbar-dark .navbar-text {
   color: rgba(117, 117, 117, .8)
@@ -3751,13 +3709,6 @@ body {
   opacity: .15
 }
 
-.navbar-toggler {
-  margin-right: 1rem;
-  border: none;
-  cursor: pointer;
-  font-size: 1.5rem
-}
-
 .nav-navbar {
   position: relative
 }
@@ -3837,14 +3788,6 @@ body {
 
 .navbar-open .navbar {
   box-shadow: none
-}
-
-.navbar-open .navbar .navbar-toggler {
-  color: rgba(117, 117, 117, .8)
-}
-
-.navbar-open .navbar .navbar-toggler:hover {
-  color: #555
 }
 
 .navbar-open .navbar .navbar-divider {
@@ -4134,16 +4077,6 @@ body {
 
 .navbar-expand .d-mobile-flex {
   display: flex!important
-}
-
-.navbar-dark .navbar-toggler,
-.navbar-stick-dark.stick .navbar-toggler {
-  color: rgba(117, 117, 117, .8)
-}
-
-.navbar-dark .navbar-toggler:hover,
-.navbar-stick-dark.stick .navbar-toggler:hover {
-  color: #555
 }
 
 .navbar-dark .navbar-divider,
