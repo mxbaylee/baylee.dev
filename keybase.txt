@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/mxbaylee
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://baylee.dev
+  * I am mxbaylee (https://keybase.io/mxbaylee) on keybase.
+  * I have a public key with fingerprint 57E5 0310 7F50 FA84 BA51  05FD 11A8 F4AD 8451 FE76
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012006b21601557e32bbf0f5211f4d6578afd68a0af87c3a5be08d9ed136e38751e70a",
+      "fingerprint": "57e503107f50fa84ba5105fd11a8f4ad8451fe76",
+      "host": "keybase.io",
+      "key_id": "11a8f4ad8451fe76",
+      "kid": "010192152930f5d03decc9e50d733de5251e6f815b718f2ff217da653b790553f85c0a",
+      "uid": "fc928e576b3a438a81b3bd64fc46b819",
+      "username": "mxbaylee"
+    },
+    "service": {
+      "hostname": "baylee.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1631723558,
+  "expire_in": 157680000,
+  "prev": "64c1b00e7227fbd15ca75a07375273f1707796c6be6e80f452af173a5faee84c",
+  "seqno": 26,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtUm1QVFUY5lNARCiEAiXhQlrx4T337rn37vIDEsgxweHDYoZR8Nx7z4UN2F12
+l5UV+ZhpGyUJlRwaQIYySJNghkmCQGoMDUZlaiokEJwmoGCCGApJHD46S/Kv8+ec
+85zned7nPeec93J2cHd85upiqy1lzeJ4d0Z0QPuDNcWUqJetFJlz8caE82RsMmfl
+amVKQ9GAoWlOZABHAwh5zDKiqNAKZABQVDIHeQEpMicgGikCL7EIipgWZDWWActh
+VuAhwDyNqAhK0eqysdFg1OrMxJY4QZoFNK9AWkGCSkQQ0FCRAUCCokKyoIJAwTxH
+hDl6k11BwonIhKO0eoKRTdZGvP/hb+amgZoBkFGzJK1MszKWJDUpKvMsWUOGBOMU
+AUCRB4LCKAoDeBlxkBV5NQ0hqwhQ2shduGGnSGpGwJDnRBapWAEJQGRFmVMpkooT
+BaC2E03YqEP5mLDzi0RkzcOYKomgCGrRSth+sfZOnjL+O4+SsYUoDUa9WS/p8wie
+YzYbTBq7zmw12IknsJj11CJL1OpkcotEYcFGk1avozSAMCWz1u4JOBbwDAuhEEHh
+IoPWiLO0dgYJLdBk2OuQchqKU0lApGnMpzMMr4gygBLiIaJ5locMzyqAp3lezUmc
+iDks0IoKMoiA5G0VhLGgkih7VwU6PaVhOBIUZRNTkzZbh8yFRtLz1gon1sXB0d0h
+yD/EJX3K2acs+YmtO8V1dfPruTrZ/53DVg+fTeRWsPf6kbYfYxe9YsOnRgvmB31i
+I6qtf4+u7MrHkVusgR81PChYWPZqMVQnHeHnY66EPqpZqSs9NNCa1fNcuZQ5k3rQ
+HFP7ueeBtCcHX1/Z1nQhfrU1qD3pVOq9e+6XrarSjtAK8cMG2RRXGt57eN+OmNSW
+2U6XQ9OTTa6NdPjR/JGapdTqhw8vnmuPKrxYpB2REiZj5Uz3xOaR+EH/F5rT0taS
+1p/3GL2RM2wLu13lp9m+2HY0+YzbY7Gy9rW2x0vOTPTus8FvVr39V6R3meSRb7hQ
+tq3Y+qD9lcHyqwd2TI6fiXvHnzpbsrfjA+foO4W3pjrHWpm5vH7HqkD0i6UjOnSy
+K2x1LBOP37Q5f9nU3veTyen21wMJAXNUc1J65h9d9Vuc30r7PvXlj9+40rKnPGxo
+ZvtioUXSh+x9lFEabLncXu/7bO3OvoYXP/0ipbQ6aqerKfCTjuRr73dWzrr/tiDZ
+vL1PTH57us2ptyfYNrrkeWwibTw/mbpP2fw8Z1tP9lz/+btz7Fcu1/zC73+T043P
+vFpx+vx7lwKKFmKWZwbGaiaMy77HjP3Ldb0T+4/35Qad/DXhRkv9yvTvw6eGrte8
+23X3z/CguOGKRKebjciYvN59Jyxj13xH/Q/7/rmUXhD/mVt5pDCXN11c150xdDgk
+gX6p123PGmqsSvRt2a2fCOin/eKOl4TFlgVW9gz+Cw==
+=qTqY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mxbaylee
+
+==================================================================
